@@ -155,7 +155,9 @@ python train.py
 - Accuracy Graph  
 - Confusion Matrix  
 
-![Confusion Matrix](confusion_matrix.png)
+### Confusion Matrix
+
+<img src="confusion_matrix.png" width="500"/>
 
 ---
 
