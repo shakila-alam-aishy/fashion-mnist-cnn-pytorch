@@ -116,4 +116,7 @@ plt.subplot(1,2,2)
 plt.plot(train_accs)
 plt.title("Accuracy")
 
-plt.show()
+#plt.show(block=False)
+
+torch.save(model.state_dict(), "model.pth")
+print("✅ Model saved as model.pth")
